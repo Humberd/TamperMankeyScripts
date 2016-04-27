@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         SteamCompanion Auto Giveaway Enterer
 // @namespace    http://tampermonkey.net/
-// @version      0.1.1
+// @version      0.1.2
 // @description  A script that automatically enters all available giveaways on SteamCompanion.com
 // @author       Humberd
 // @match        https://steamcompanion.com/*
