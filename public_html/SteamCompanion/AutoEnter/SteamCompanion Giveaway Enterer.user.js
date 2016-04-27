@@ -158,7 +158,6 @@
             error: function (jqXHR, textStatus, errorThrown) {
                 handler.callError();
             }
-
         });
     }
 })();
