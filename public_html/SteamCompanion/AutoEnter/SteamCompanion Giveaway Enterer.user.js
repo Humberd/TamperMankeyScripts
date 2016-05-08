@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         SteamCompanion Auto Giveaway Enterer
-// @version      0.2
+// @version      0.2.1
 // @description  A script that automatically enters all available giveaways on SteamCompanion.com
 // @author       Humberd
 // @match        https://steamcompanion.com/*
@@ -154,7 +154,9 @@
 }));
 (function () {
     'use strict';
-
+    ///////////deletes that blue bar at the top///////////
+    $("body > header + div").remove();
+    /////////////////////
     var barSelector = ".top-bar-section ul.left";
     var bar = $(barSelector);
     bar.append("<li><button id='enterer-button'>Enter All Giveaways</button></li>");
